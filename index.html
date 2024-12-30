@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки</title>
+    <link rel="website icon" type="png" href="./assets/img/125.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Блок авторизации -->
+        <div id="auth">
+            <h2>Регистрация теми  / Вход</h2>
+            <input type="text" id="username" placeholder="Введите имя пользователя тема " />
+            <button id="register">Войти</button>
+        </div>
+
+        <!-- Блок заметок (скрыт по умолчанию) -->
+        <div id="notesApp" class="hidden">
+            <h2>Ваши заметки</h2>
+            <textarea id="noteInput" placeholder="Напишите заметку..."></textarea>
+            <button id="addNote">Добавить</button>
+            <ul id="notesList"></ul>
+            <button id="logout">Выйти</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
